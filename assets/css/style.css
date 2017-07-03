@@ -126,8 +126,59 @@ body {
 /*fin de la funcion offset*/
 /*----Inicio Variables Colores----*/
 /*----Fin Variables Colores----*/
-.parrafos, .formulario {
-  background-color: #2C3E50; }
+
+
+/*----Inicio Estilos Mone----*/
+.aboutUs {
+  background: #2c3e50;
+  padding: 10% 0; }
+  .aboutUs__divContendorDirecto {
+    padding: 2%; }
+    .aboutUs__divContendorDirecto--img {
+      height: 100%;
+      width: 100%; }
+    .aboutUs__divContendorDirecto--linea {
+      border-bottom: solid 1px white;
+      padding: 3% 4%; }
+
+.contenedor3barras {
+  width: 100%;
+  padding-top: 4%; }
+  .contenedor3barras__barraLarga {
+    padding: 0;
+    border: solid 1px white;
+    background: white; }
+    .contenedor3barras__barraLarga__barraPorcentaje {
+      background: orange; }
+      .contenedor3barras__barraLarga__barraPorcentaje--porcentajeHTML {
+        width: 90%; }
+      .contenedor3barras__barraLarga__barraPorcentaje--porcentajeCSS {
+        width: 80%; }
+      .contenedor3barras__barraLarga__barraPorcentaje--porcentajeJAVASCRIPT {
+        width: 50%; }
+      .contenedor3barras__barraLarga__barraPorcentaje--porcentajePHP {
+        width: 60%; }
+      .contenedor3barras__barraLarga__barraPorcentaje--porcentajePHOTOSHOP {
+        width: 70%; }
+/*----Fin Estilos Mone----*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: white; }
+
+.titulo {
+  font-size: 8vh; }
+
+.subtitulo {
+  font-size: 4vh; }
+
+.texto {
+  font-size: 2vh; }
 
 /*aqui empieza seccion Silvana*/
 .seccion1 {
@@ -139,6 +190,37 @@ body {
   background-image: url(../img/img-divider-img.jpg);
   background-position: bottom; }
 
+
 /*aqui termina seccion Silvana*/
+
+.parrafos, .formulario {
+  background-color: #2C3E50;
+  padding-top: 20px; }
+
+.parrafos_texto {
+  font-size: 2vh;
+  margin-bottom: 30px; }
+
+.parrafos_texto--amarillo {
+  color: orange; }
+
+.datos {
+  padding: 5px; }
+
+.datos_input {
+  width: 100%;
+  margin: 10px;
+  height: 30px;
+  border-radius: 5px; }
+
+.datos_input--textarea {
+  height: 50px; }
+
+.boton {
+  width: 100px;
+  height: 50px;
+  background-color: #8f5f38;
+  border: none;
+  margin: 20px; }
 
 /*# sourceMappingURL=style.css.map */
