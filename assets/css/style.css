@@ -1,3 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: white; }
+
+.titulo {
+  font-size: 8vh; }
+
+.subtitulo {
+  font-size: 4vh; }
+
+.texto {
+  font-size: 2vh; }
+
+.displayFlex {
+  display: flex; }
+
+.centerFlex {
+  justify-content: center; }
+
+.centerGrid {
+  text-align: center; }
+
 /*--Iniciando la Gridd--*/
 .container {
   width: 100%;
@@ -99,31 +126,19 @@
 /*fin de la funcion offset*/
 /*----Inicio Variables Colores----*/
 /*----Fin Variables Colores----*/
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
-
-body {
-  font-family: 'Raleway', sans-serif;
-  color: white; }
-
-.titulo {
-  font-size: 8vh; }
-
-.subtitulo {
-  font-size: 4vh; }
-
-.texto {
-  font-size: 2vh; }
-
-.centerFlex {
-  justify-content: center; }
-
-.centerGrid {
-  text-align: center; }
-
 .parrafos, .formulario {
   background-color: #2C3E50; }
+
+/*aqui empieza seccion Silvana*/
+.seccion1 {
+  background-image: url(../img/carousel-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.seccion7 {
+  background-image: url(../img/img-divider-img.jpg);
+  background-position: bottom; }
+
+/*aqui termina seccion Silvana*/
 
 /*# sourceMappingURL=style.css.map */
