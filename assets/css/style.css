@@ -1,21 +1,21 @@
 /*
 Error: Invalid CSS after "@import 'prices'": expected "{", was ";"
-        on line 7 of src/style.scss
+        on line 8 of src/style.scss
 
-2: @import 'mixin';
 3: @import 'variables';
 4: @import 'about-us';
 5: @import 'comun';
 6: <<<<<<< HEAD
-7: @import 'prices';
-8: 
-9: $font-family-prices:'Roboto', sans-serif;
-10: $centrado:center;
-11: $color-fondo-azulmarino:#2c3e50;
-12: 
+7: <<<<<<< HEAD
+8: @import 'prices';
+9: 
+10: $font-family-prices:'Roboto', sans-serif;
+11: $centrado:center;
+12: $color-fondo-azulmarino:#2c3e50;
+13: 
 
 Backtrace:
-src/style.scss:7
+src/style.scss:8
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
@@ -42,4 +42,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.24/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"@import 'prices'\": expected \"{\", was \";\"\A         on line 7 of src/style.scss\A \A 2: @import 'mixin';\A 3: @import 'variables';\A 4: @import 'about-us';\A 5: @import 'comun';\A 6: <<<<<<< HEAD\A 7: @import 'prices';\A 8: \A 9: $font-family-prices:'Roboto', sans-serif;\A 10: $centrado:center;\A 11: $color-fondo-azulmarino:#2c3e50;\A 12: "; }
+  content: "Error: Invalid CSS after \"@import 'prices'\": expected \"{\", was \";\"\A         on line 8 of src/style.scss\A \A 3: @import 'variables';\A 4: @import 'about-us';\A 5: @import 'comun';\A 6: <<<<<<< HEAD\A 7: <<<<<<< HEAD\A 8: @import 'prices';\A 9: \A 10: $font-family-prices:'Roboto', sans-serif;\A 11: $centrado:center;\A 12: $color-fondo-azulmarino:#2c3e50;\A 13: "; }
