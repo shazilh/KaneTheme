@@ -1,0 +1,41 @@
+//<!--Inicia Seccion 1 Nav Claus -->
+.nav{ 
+	background-color: $verde;
+	height:100px;
+	
+}
+.nav__items{
+	text-decoration: none;
+	width: 5%;
+	color: white;
+	padding-left: 1%;
+	
+}
+.nav--list{
+	list-style: none;
+	margin-top: 1.5%;
+}
+
+//<!--Termina Seccion 1 Nav Claus -->
+
+//<!--Inicia Seccion 8  footer Clau -->
+footer{
+	background-color: $verde;
+}
+.col1--list{
+	list-style: none;
+	margin-top: 1.5%;
+	padding: 2%;
+}
+.btn{
+	background-color: $cafeBotones;
+	color: white;
+	border: none;
+	width: 150px;
+	padding: 10px;
+}
+.texo--cafe{
+	color: $cafeBotones;
+}
+
+//<!--Termina Seccion 8 footer Clau --> 
