@@ -1,0 +1,48 @@
+.aboutUs {
+    background: $azulMarinoFondo;
+    padding: 10% 0;
+    &__divContendorDirecto {
+        padding: 2%;
+        &--img {
+            height: 100%;
+            width: 100%;
+        }
+        &--linea{
+            border-bottom: solid 1px white;
+            padding: 3% 4%;
+        }
+    }
+}
+
+.contenedor3barras{
+    width: 100%;
+    padding-top: 4%;
+    &__barraLarga{
+        padding: 0;
+        border: solid 1px white;
+        background: white;
+        &__barraPorcentaje{
+            background: orange;
+            &--porcentajeHTML{
+                width: 90%;
+            }
+            &--porcentajeCSS{
+                width: 80%;
+            }
+            &--porcentajeJAVASCRIPT{
+                width: 50%;
+            }
+            &--porcentajePHP{
+                width: 60%;
+            }
+            &--porcentajePHOTOSHOP{
+                width: 70%;
+            }
+        }     
+    }
+}
+
+
+
+
+
