@@ -99,10 +99,45 @@
 /*fin de la funcion offset*/
 /*----Inicio Variables Colores----*/
 /*----Fin Variables Colores----*/
+
+/*----Inicio Estilos Mone----*/
+.aboutUs {
+  background: #2c3e50;
+  padding: 10% 0; }
+  .aboutUs__divContendorDirecto {
+    padding: 2%; }
+    .aboutUs__divContendorDirecto--img {
+      height: 100%;
+      width: 100%; }
+    .aboutUs__divContendorDirecto--linea {
+      border-bottom: solid 1px white;
+      padding: 3% 4%; }
+
+.contenedor3barras {
+  width: 100%;
+  padding-top: 4%; }
+  .contenedor3barras__barraLarga {
+    padding: 0;
+    border: solid 1px white;
+    background: white; }
+    .contenedor3barras__barraLarga__barraPorcentaje {
+      background: orange; }
+      .contenedor3barras__barraLarga__barraPorcentaje--porcentajeHTML {
+        width: 90%; }
+      .contenedor3barras__barraLarga__barraPorcentaje--porcentajeCSS {
+        width: 80%; }
+      .contenedor3barras__barraLarga__barraPorcentaje--porcentajeJAVASCRIPT {
+        width: 50%; }
+      .contenedor3barras__barraLarga__barraPorcentaje--porcentajePHP {
+        width: 60%; }
+      .contenedor3barras__barraLarga__barraPorcentaje--porcentajePHOTOSHOP {
+        width: 70%; }
+/*----Fin Estilos Mone----*/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
+
 
 body {
   font-family: 'Raleway', sans-serif;
