@@ -286,6 +286,175 @@ body {
   border: none;
   margin: 20px; }
 
+/*INICIO COLORES KARLA*/
+.colors {
+  /* CSS declarations for `.block` */ }
+  .colors__h2 {
+    /* CSS declarations for `.block__element` */
+    font: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 3em;
+    color: black;
+    font-family: "Roboto", sans-serif; }
+  .colors__div-colores {
+    /* CSS declarations for `.block__element` */
+    width: 150px;
+    height: 150px; }
+  .colors--colores {
+    /* CSS declarations for `.block--modifier` */ }
+    .colors--colores__uno {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #69d2e7; }
+    .colors--colores__dos {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #a7dbdb; }
+    .colors--colores__tres {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #e0e4cc; }
+    .colors--colores__cuatro {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #f38630; }
+    .colors--colores__cinco {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #fa6962; }
+    .colors--colores__seis {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #e94c6f; }
+    .colors--colores__siete {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #542733; }
+    .colors--colores__ocho {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #5a6a62; }
+    .colors--colores__nueve {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #c6d5d7; }
+    .colors--colores__diez {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #fdf200; }
+    .colors--colores__once {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #db3340; }
+    .colors--colores__doce {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #e8b71a; }
+    .colors--colores__trece {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #f7eac8; }
+    .colors--colores__catorce {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #f7eac8; }
+    .colors--colores__quince {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #1fda94; }
+    .colors--colores__diciseis {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #28abe3; }
+    .colors--colores__diecisiete {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #588c73; }
+    .colors--colores__dieciocho {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #f2e394; }
+    .colors--colores__diecinueve {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #f2ae72; }
+    .colors--colores__veinte {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #8ca6a6; }
+    .colors--colores__veintiuno {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #d0c91f; }
+    .colors--colores__veintidos {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #85c4b9; }
+    .colors--colores__veintitres {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #008bba; }
+    .colors--colores__veinticuatro {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #df5157; }
+    .colors--colores__veinticinco {
+      /* CSS declarations for `.block--modifier__element` */
+      background: #dc403b; }
+
+.color-div#69d2e7 {
+  background-color: rgba(105, 210, 231, 0.6); }
+
+.color-div#a7dbdb {
+  background-color: rgba(167, 219, 219, 0.6); }
+
+.color-div#e0e4cc {
+  background-color: rgba(224, 228, 204, 0.6); }
+
+.color-div#f38630 {
+  background-color: rgba(243, 134, 48, 0.6); }
+
+.color-div#fa6962 {
+  background-color: rgba(250, 105, 98, 0.6); }
+
+.color-div#e94c6f {
+  background-color: rgba(233, 76, 111, 0.6); }
+
+.color-div#542733 {
+  background-color: rgba(84, 39, 51, 0.6); }
+
+.color-div#5a6a62 {
+  background-color: rgba(90, 106, 98, 0.6); }
+
+.color-div#c6d5d7 {
+  background-color: rgba(198, 213, 215, 0.6); }
+
+.color-div#fdf200 {
+  background-color: rgba(253, 242, 0, 0.6); }
+
+.color-div#db3340 {
+  background-color: rgba(219, 51, 64, 0.6); }
+
+.color-div#e8b71a {
+  background-color: rgba(232, 183, 26, 0.6); }
+
+.color-div#f7eac8 {
+  background-color: rgba(247, 234, 200, 0.6); }
+
+.color-div#1fda94 {
+  background-color: rgba(31, 218, 148, 0.6); }
+
+.color-div#28abe3 {
+  background-color: rgba(40, 171, 227, 0.6); }
+
+.color-div#588c73 {
+  background-color: rgba(88, 140, 115, 0.6); }
+
+.color-div#f2e394 {
+  background-color: rgba(242, 227, 148, 0.6); }
+
+.color-div#f2ae72 {
+  background-color: rgba(242, 174, 114, 0.6); }
+
+.color-div#8ca6a6 {
+  background-color: rgba(140, 166, 166, 0.6); }
+
+.color-div#d0c91f {
+  background-color: rgba(208, 201, 31, 0.6); }
+
+.color-div#85c4b9 {
+  background-color: rgba(133, 196, 185, 0.6); }
+
+.color-div#008bba {
+  background-color: rgba(0, 139, 186, 0.6); }
+
+.color-div#df5157 {
+  background-color: rgba(223, 81, 87, 0.6); }
+
+.color-div#dc403b {
+  background-color: rgba(220, 64, 59, 0.6); }
+
+.negro {
+  color: black; }
+
+/*FIN COLORES KARLA*/
+
 /* inicio estilos erandy */
 .fondo {
   background-color: #27ad60;
