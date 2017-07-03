@@ -1,0 +1,169 @@
+/*INICIO COLORES KARLA*/
+
+$font-roboto: 'Roboto', sans-serif;
+$font-size-h2: 3em;
+$div-color-size: 150px;
+
+
+.colors {
+    /* CSS declarations for `.block` */
+
+    &__h2 {
+        /* CSS declarations for `.block__element` */
+        font: $font-roboto;
+        text-align: center;
+        font-size: $font-size-h2;
+        color: black;
+        font-family: $font-roboto;
+    }
+    
+    &__div-colores {
+        /* CSS declarations for `.block__element` */
+        width: $div-color-size;
+        height: $div-color-size;
+    }
+
+    &--colores {
+        /* CSS declarations for `.block--modifier` */
+
+        &__uno {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(105, 210, 231);
+        }
+         &__dos {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(167, 219, 219);
+        }
+        &__tres {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(224, 228, 204);
+        }
+        &__cuatro {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(243, 134, 48);
+        }
+        &__cinco {
+            /* CSS declarations for `.block--modifier__element` */
+            background:  rgb(250, 105, 98);
+        }
+        &__seis {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(233, 76, 111);
+        }
+         &__siete {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(84, 39, 51);
+        }
+        &__ocho {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(90, 106, 98);
+        }
+        &__nueve {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(198, 213, 215);
+        }
+        &__diez {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(253, 242, 0);
+        }
+        &__once {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(219, 51, 64);
+        }
+         &__doce {
+            /* CSS declarations for `.block--modifier__element` */
+            background:  rgb(232, 183, 26);
+        }
+        &__trece {
+            /* CSS declarations for `.block--modifier__element` */
+            background:  rgb(247, 234, 200);
+        }
+        &__catorce {
+            /* CSS declarations for `.block--modifier__element` */
+            background:  rgb(247, 234, 200);
+        }
+        &__quince {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(31, 218, 148);
+        }
+        &__diciseis {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(40, 171, 227);
+        }
+         &__diecisiete {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(88, 140, 115);
+        }
+        &__dieciocho {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(242, 227, 148);
+        }
+        &__diecinueve {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(242, 174, 114);
+        }
+        &__veinte {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(140, 166, 166);
+        }
+        &__veintiuno {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(208, 201, 31);
+        }
+         &__veintidos {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(133, 196, 185);
+        }
+        &__veintitres{
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(0, 139, 186);
+        }
+        &__veinticuatro {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(223, 81, 87);
+        }
+        &__veinticinco {
+            /* CSS declarations for `.block--modifier__element` */
+            background: rgb(220, 64, 59);
+        }
+    }
+}
+
+$colours: rgb(105, 210, 231), 
+          rgb(167, 219, 219), 
+          rgb(224, 228, 204),
+          rgb(243, 134, 48),   
+          rgb(250, 105, 98),
+          rgb(233, 76, 111), 
+          rgb(84, 39, 51),
+          rgb(90, 106, 98),
+          rgb(198, 213, 215),
+          rgb(253, 242, 0),
+          rgb(219, 51, 64),
+          rgb(232, 183, 26),
+          rgb(247, 234, 200),
+          rgb(31, 218, 148),
+          rgb(40, 171, 227),
+          rgb(88, 140, 115),
+          rgb(242, 227, 148),
+          rgb(242, 174, 114),
+          rgb(140, 166, 166),
+          rgb(208, 201, 31),
+          rgb(133, 196, 185),
+          rgb(0, 139, 186),
+          rgb(223, 81, 87),
+          rgb(220, 64, 59); 
+
+
+
+@each $i in $colours {
+    .color-div#{$i} {
+        background-color: rgba($i, 0.6);
+    }
+}
+
+.negro {
+    color: $negro;
+}
+
+/*FIN COLORES KARLA*/
