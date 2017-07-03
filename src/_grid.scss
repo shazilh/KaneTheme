@@ -27,6 +27,10 @@
     padding: 12px;
     float: left;
 }
+[class*="offset-"]{
+    min-height: 7px;
+    float: left;
+}
 
 @function anchoDeColumnas($num, $cols:12){
     @return percentage($num / $cols);
