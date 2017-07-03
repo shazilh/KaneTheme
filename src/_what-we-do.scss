@@ -1,0 +1,52 @@
+/* inicio estilos erandy */
+.fondo {
+    background-color: $verde;
+    text-align: center;
+}
+.fondo__h2--titulo {
+    color: white;
+    text-align: center;
+    font-family: $font-raleway;
+    font-weight: bold;
+    font-size: 8vh;
+}
+
+.fondo__hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 5px;
+    border: 0;
+    border-top: 1px solid white;
+}
+.fondo__h3 {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-family: $font-raleway;
+    width: 100%;
+    font-size: 4vh;
+    
+}
+.fondo__parrafo {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-family: $font-raleway;
+    width: 100%;
+    font-size: 2vh;
+    
+}
+.boton-hire{
+    background-color: $cafeBotones;
+    height: 60px;
+    width: 15%;
+    margin-bottom: 20px;
+}
+.boton-hire__enlace{
+    text-decoration-line: none;
+    color: white;
+}
+.imagen-radio{
+    border-radius: 50%;
+}
+/* fin estilos erandy */
