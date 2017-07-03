@@ -97,5 +97,9 @@
   margin-left: 100%; }
 
 /*fin de la funcion offset*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
