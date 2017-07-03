@@ -1,0 +1,22 @@
+@mixin padding-top($px){
+    padding-top: $px;
+}
+@mixin font-size($px){
+    font-size: $px;
+}
+@mixin margin-botton($px){
+    margin-bottom: $px;
+}
+@mixin titulo{
+    font-family:$font-family-prices;
+    text-align:$centrado;
+}
+@mixin linea{
+    color:white;
+    text-align: $centrado;
+    margin-top: 20px;
+    height: 5px;
+    border: 0;
+    border-top: 1px solid white;
+}
+

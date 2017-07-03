@@ -193,6 +193,69 @@ body {
 
 /*aqui termina seccion Silvana*/
 
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.prices {
+  background-color: #2c3e50;
+  color: white;
+  padding-bottom: 200px; }
+  .prices .cajas-prices:hover, .prices .cajas-prices:focus {
+    margin-top: 50px;
+    border: 2px solid orange;
+    margin: 0 10px; }
+  .prices__titulo {
+    padding-top: 100px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 50px; }
+  .prices__separadorCont {
+    margin-bottom: 10px;
+    text-align: center; }
+    .prices__separadorCont--linea {
+      color: white;
+      text-align: center;
+      margin-top: 20px;
+      height: 5px;
+      border: 0;
+      border-top: 1px solid white; }
+  .prices__texto {
+    text-align: center; }
+
+.cajas-prices {
+  background-color: #2c3e50;
+  text-align: center;
+  margin-top: 20px;
+  height: 500px;
+  border: 1px solid green; }
+  .cajas-prices__azul {
+    color: white;
+    height: 100px; }
+  .cajas-prices__verde {
+    color: white;
+    background-color: #27ad60;
+    font-size: 25px; }
+  .cajas-prices__starter {
+    height: 60px;
+    padding-top: 10px; }
+  .cajas-prices__blanco {
+    background-color: white;
+    color: black; }
+  .cajas-prices p {
+    padding-top: 5px;
+    padding-bottom: 5px; }
+  .cajas-prices__button {
+    background-color: #8f5f38;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px; }
+    .cajas-prices__button:hover {
+      background-color: #2c3e50;
+      padding-top: 10px; }
+
 .parrafos, .formulario {
   background-color: #2C3E50;
   padding-top: 20px; }
