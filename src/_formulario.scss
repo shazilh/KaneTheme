@@ -1,3 +1,37 @@
 .parrafos, .formulario{
 	background-color: #2C3E50;
+	padding-top: 20px;
 }
+
+.parrafos_texto{
+	font-size: 2vh;
+	margin-bottom: 30px;
+}
+
+.parrafos_texto--amarillo{
+	color: orange;
+}
+
+.datos{
+	padding: 5px;
+}
+
+.datos_input{
+	width: 100%;
+	margin:10px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.datos_input--textarea{
+	height: 50px;
+}
+
+.boton{
+	width: 100px;
+	height: 50px;
+	background-color: #8f5f38;
+	border: none;
+	margin: 20px;
+}
+
