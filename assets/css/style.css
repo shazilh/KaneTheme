@@ -28,7 +28,7 @@ body {
 /*--Iniciando la Gridd--*/
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   display: block; }
 
@@ -222,5 +222,55 @@ body {
   background-color: #8f5f38;
   border: none;
   margin: 20px; }
+
+/* inicio estilos erandy */
+.fondo {
+  background-color: #27ad60;
+  text-align: center; }
+
+.fondo__h2--titulo {
+  color: white;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 8vh; }
+
+.fondo__hr {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 5px;
+  border: 0;
+  border-top: 1px solid white; }
+
+.fondo__h3 {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  font-size: 4vh; }
+
+.fondo__parrafo {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  font-size: 2vh; }
+
+.boton-hire {
+  background-color: #443e44;
+  height: 60px;
+  width: 15%;
+  margin-bottom: 20px; }
+
+.boton-hire__enlace {
+  text-decoration-line: none;
+  color: white; }
+
+.imagen-radio {
+  border-radius: 50%; }
+
+/* fin estilos erandy */
 
 /*# sourceMappingURL=style.css.map */
