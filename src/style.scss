@@ -3,9 +3,34 @@
 @import 'variables';
 @import 'about-us';
 @import 'comun';
+@import 'prices';
+
+$font-family-prices:'Roboto', sans-serif;
+$centrado:center;
+$color-fondo-azulmarino:#2c3e50;
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+.prices{
+    background-color:$color-fondo-azulmarino; 
+    color:white;
+    &__titulo{
+        @include padding-top(100px);
+        @include titulo; 
+        @include font-size(50px);
+    }
+    &__separadorCont{
+        @include margin-botton(10px);
+        text-align: $centrado;
+        &--linea{
+            @include linea;
+        }
+    }
+    &__texto{
+            text-align: $centrado;
+        }
+      }
+
