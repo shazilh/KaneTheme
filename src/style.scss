@@ -3,8 +3,6 @@
 @import 'variables';
 @import 'about-us';
 @import 'comun';
-<<<<<<< HEAD
-<<<<<<< HEAD
 @import 'prices';
 
 $font-family-prices:'Roboto', sans-serif;
@@ -19,6 +17,13 @@ $color-fondo-azulmarino:#2c3e50;
 .prices{
     background-color:$color-fondo-azulmarino; 
     color:white;
+    padding-bottom: 200px;
+    
+    .cajas-prices:hover, .cajas-prices:focus{
+		margin-top: 50px;
+		border: 2px solid orange;
+        margin:0 10px;
+    }
     &__titulo{
         @include padding-top(100px);
         @include titulo; 
@@ -35,12 +40,42 @@ $color-fondo-azulmarino:#2c3e50;
             text-align: $centrado;
         }
       }
-
-=======
-@import "formulario";
-
->>>>>>> 54f317d8dab3cd258ebe27217fde10217c1db2ed
-=======
-@import "formulario";
-
->>>>>>> 54f317d8dab3cd258ebe27217fde10217c1db2ed
+.cajas-prices{
+    background-color:$color-fondo-azulmarino;
+    text-align: $centrado;
+    margin-top: 20px;
+    height: 500px;
+    border: 1px solid green;
+    &__azul{
+        color:white;
+        height: 100px;
+    }
+    &__verde{
+        color:white;
+        background-color: #27ad60;
+        font-size:25px;
+    }
+    &__starter{
+        height: 60px;
+        padding-top: 10px;
+    }
+    &__blanco{
+        background-color: white;
+        color:black;
+    }
+    p{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    &__button{
+        background-color: #8f5f38;
+        text-align: $centrado;
+        padding:15px;
+        margin-top: 50px;
+        &:hover{
+            background-color:$color-fondo-azulmarino;
+            @include padding-top(10px);
+        }
+        
+    }
+}
