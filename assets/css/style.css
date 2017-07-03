@@ -99,6 +99,11 @@
 /*fin de la funcion offset*/
 /*----Inicio Variables Colores----*/
 /*----Fin Variables Colores----*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 body {
   font-family: 'Raleway', sans-serif;
   color: white; }
@@ -118,9 +123,7 @@ body {
 .centerGrid {
   text-align: center; }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
+.parrafos, .formulario {
+  background-color: #2C3E50; }
 
 /*# sourceMappingURL=style.css.map */
